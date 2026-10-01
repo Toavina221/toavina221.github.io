@@ -4,30 +4,62 @@
 <meta name="google-site-verification" content="XYGX0skmYQj21ceqUaSHVxf9jNEGcFPyUWLhSqV8H6c" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TailorPro - Gestion d'atelier de couture</title>
+<title>Rovamampionina Toavina - Applications</title>
+<meta name="description" content="Applications mobiles Android éditées par Rovamampionina Toavina : TailorPro, PostFlash, ExamScan et PromptLib.">
 <style>
-  body { font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width: 640px; margin: 60px auto; padding: 0 24px; color: #1a1a1a; line-height: 1.6; }
-  h1 { color: #214a5c; }
-  .tagline { color: #5a6e78; font-size: 1.1em; margin-bottom: 32px; }
+  :root { --text: #1a1a1a; --muted: #5a6e78; --accent: #214a5c; --line: #e3e7ea; --bg: #ffffff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --text: #eceff1; --muted: #a7b4bb; --accent: #8cc4dc; --line: #2c343a; --bg: #14181b; }
+  }
+  body { font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width: 640px; margin: 60px auto; padding: 0 24px; color: var(--text); background: var(--bg); line-height: 1.6; }
+  h1 { color: var(--accent); margin-bottom: 4px; }
+  h2 { color: var(--accent); margin: 0 0 4px; }
+  a { color: var(--accent); }
+  .tagline { color: var(--muted); font-size: 1.1em; margin: 0 0 32px; }
+  .app { border-top: 1px solid var(--line); padding: 28px 0 8px; }
+  .app .sub { color: var(--muted); margin: 0 0 12px; }
   ul { padding-left: 20px; }
   footer { margin-top: 48px; font-size: 0.9em; color: #888; }
 </style>
 </head>
 <body>
-  <h1>TailorPro</h1>
-  <p class="tagline">Gestion d'atelier de couture — Couture Pro</p>
+  <h1>Rovamampionina Toavina</h1>
+  <p class="tagline">Éditeur d'applications mobiles Android · Android app publisher</p>
 
-  <p>TailorPro est une application mobile qui aide les artisans de la couture à gérer leur atelier au quotidien : commandes, clients, livreurs et paiements, avec ou sans connexion internet.</p>
+  <section class="app" id="tailorpro">
+    <h2>TailorPro</h2>
+    <p class="sub">Gestion d'atelier de couture — Couture Pro</p>
 
-  <ul>
-    <li>Suivi des commandes avec échéances, retards et priorités</li>
-    <li>Répertoire clients avec mensurations</li>
-    <li>Gestion des livreurs et de leurs disponibilités</li>
-    <li>Reçus clients envoyés par WhatsApp, SMS ou appel</li>
-    <li>Fonctionne hors ligne, avec sauvegarde optionnelle dans le cloud</li>
-  </ul>
+    <p>TailorPro est une application mobile qui aide les artisans de la couture à gérer leur atelier au quotidien : commandes, clients, livreurs et paiements, avec ou sans connexion internet.</p>
 
-  <p>Voir notre <a href="https://sites.google.com/view/politique-tailorpro/accueil">politique de confidentialité complète</a>.</p>
+    <ul>
+      <li>Suivi des commandes avec échéances, retards et priorités</li>
+      <li>Répertoire clients avec mensurations</li>
+      <li>Gestion des livreurs et de leurs disponibilités</li>
+      <li>Reçus clients envoyés par WhatsApp, SMS ou appel</li>
+      <li>Fonctionne hors ligne, avec sauvegarde optionnelle dans le cloud</li>
+    </ul>
+
+    <p>Voir notre <a href="https://sites.google.com/view/politique-tailorpro/accueil">politique de confidentialité complète</a> · <a href="account-deletion.html">Suppression de compte</a></p>
+  </section>
+
+  <section class="app" id="postflash">
+    <h2>PostFlash</h2>
+    <p class="sub">Annonces de vente rédigées en quelques secondes · Sales ads written in seconds</p>
+    <p><a href="https://toavina221.github.io/postflash-legal/privacy.html">Politique de confidentialité / Privacy policy</a></p>
+  </section>
+
+  <section class="app" id="examscan">
+    <h2>ExamScan</h2>
+    <p class="sub">Correction de copies façon tuteur : des indices et une note, jamais la solution complète</p>
+    <p><a href="https://toavina221.github.io/examscan-legal/">Politique de confidentialité</a></p>
+  </section>
+
+  <section class="app" id="promptlib">
+    <h2>PromptLib</h2>
+    <p class="sub">AI prompt gallery — try any prompt on your own photo, right in the app</p>
+    <p><a href="https://toavina221.github.io/promptlib-data/privacy.html">Privacy policy</a></p>
+  </section>
 
   <footer>Contact : Toavina.supportclient@gmail.com</footer>
 </body>
